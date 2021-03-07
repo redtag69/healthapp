@@ -1,0 +1,40 @@
+To Do:
+    - Fetch the Data gathered by the sphygmomanometer device to the Application, recording it 
+    updating the history,(Data: Systolic Pressure, Diastolic Pressure, Heart Rate, Date and Time )
+
+    - *RECOMENDED: 
+    Sign Up and Login the user on the app via facebook, or set up a skip button, but 
+    still has the ability to record history(Although Loses if uninstalled )
+
+    - Fetch Username then give it a unique_id = True, for temporary record history, also to set the 
+    name on the Activity Page 
+
+    - Sets up the fetched contact number from nearby hospitals with respect to the user's location, 
+    and prepares it incase measurements exceeds systolic: 180; diastolic: 120. (Sets hotline by 911
+    by default)
+
+    
+
+
+
+
+Measurements{
+    Int Systolic Pressure;
+    Int Diastolic Pressure;
+    Int Heart Rate; 
+
+on Measurements: 
+Charts{
+    Measurements(): get data from Measurements
+    Render the chart()
+}
+
+Google Something{
+    Int Phone Number;
+    String Hospital Name;
+
+}
+
+Articles{
+    URL something or String Text ; 
+}
